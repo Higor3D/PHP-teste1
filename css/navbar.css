@@ -1,0 +1,22 @@
+.navbar{
+    border-radius: 5px;
+    padding: 3px 5px 3px 5px;
+    margin: 15px 10px 0px 10px;
+    background-color:#9daaa0;
+  }
+  
+  .nav-item{
+    align-self: center;
+    font-size: 0.95rem;
+    font-weight: bold;
+    -webkit-transition: all 0.5s 0s ease;
+    -moz-transition: all 0.5s 0s ease;
+    -o-transition: all 0.5s 0s ease;
+    transition: all 0.5s 0s ease;
+  }
+  
+  .nav-item:hover{
+    font-size: large;
+    color: #e0e0e0;
+    border: #000000;
+  }
