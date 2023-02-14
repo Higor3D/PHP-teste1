@@ -17,10 +17,11 @@ body {
 }
 
 .formulario{
+  border-radius: 25px;
   padding: 40px 40px 0px 40px;
   margin-bottom: 15px;
   margin-top: 15px;
-  background-color: #a9b9a9a6;
+  background-color: #bcc6cf;
 }
 
 .form-control{
@@ -59,36 +60,25 @@ body {
 }
 
 .btn-primary{
-  background-color: #445548da;
-  border-color: #445548da;
+  background-color: #635758;
+  border-color: #635758;
+  margin: 0.25em;
 }
 
 .btn-primary:hover{
   background-color: #e0e0e0 !important;
-  color: #748E7B !important;
-  border-color: #445548 !important;
-  border:2px solid !important;
+  color: #5a4848!important;
+  border-color: #ffffff !important;
 }
 
-.bi-shield-lock-fill{
-  color: #445548;
+.bi{
+  color: #635758;
   border-color: black;
 }
 
-.btn-secondary{
-  background-color: #e0e0e0;
-  border: 2px solid;
-  border-color: #445548 !important;
-  margin-left: 5px !important;
-  color: #445548;
+.seta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.btn-secondary:hover{
-  background-color: #445548 !important;
-  border: 2px solid #445548  !important;
-  color: #e0e0e0 !important;
-}
-
-.bi-person-circle{
-  padding-top: 5px;
-}
