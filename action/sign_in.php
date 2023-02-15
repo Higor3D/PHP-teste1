@@ -10,4 +10,17 @@
         $email = mysqli_escape_string($connection,$_POST['e-mail']);
         $telefone = mysqli_escape_string($connection,$_POST['tel']);
     }
+
+    $to = "higorgomes07@gmail.com"
+    $subject = "cadastro"
+    $body = "Nome: " .$name. "\n" "Email: " .$email. "\n"
+
+    $header = "From: dunhug007@gmail.com" . "\r\n". "Replay-To:" . $email. "\r\n"
+
+    if(mail($to, $subject,$body, $header)){
+        echo("email enviado")
+    }
+    else {
+        echo("houve um erro")
+    }
 ?>
